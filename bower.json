@@ -16,17 +16,17 @@
     "bower.json"
   ],
   "dependencies": {
-    "purescript-tuples": "^4.0.0",
-    "purescript-functions": "^3.0.0",
-    "purescript-argonaut-core": "^3.1.0",
-    "purescript-argonaut-codecs": "^3.0.1",
-    "purescript-foreign": "^4.0.0",
-    "purescript-foreign-generic": "^4.1.0",
-    "purescript-transformers": "^3.2.0",
-    "purescript-exceptions": "^3.0.0"
+    "purescript-tuples": "^5.1.0",
+    "purescript-functions": "^4.0.0",
+    "purescript-argonaut-core": "^4.0.1",
+    "purescript-argonaut-codecs": "^5.1.3",
+    "purescript-foreign": "^5.0.0",
+    "purescript-foreign-generic": "^8.1.0",
+    "purescript-transformers": "^4.2.0",
+    "purescript-exceptions": "^4.0.0"
   },
   "devDependencies": {
-    "purescript-console": "^3.0.0",
-    "purescript-test-unit": "^11.0.0"
+    "purescript-console": "^4.2.0",
+    "purescript-test-unit": "^14.0.0"
   }
 }

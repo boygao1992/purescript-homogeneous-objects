@@ -3,7 +3,7 @@ module Data.HObject.Primitive.Helpers where
 import Data.HObject.Primitive (class Primitive)
 
 
--- | These are helper data types and instances so that you don't have to write out Primitive instances for your  
+-- | These are helper data types and instances so that you don't have to write out Primitive instances for your
 -- | sum datatype consisting of primitive nullary types.
 
 -- | These data types are alphabetically ordered by type.
@@ -121,7 +121,7 @@ instance intToPrim :: Primitive Int Prim where
   mkPrim = PrimI
 
 instance numToPrim :: Primitive Number Prim where
-  mkPrim = PrimN 
+  mkPrim = PrimN
 
 instance strToPrim :: Primitive String Prim where
-  mkPrim = PrimS 
+  mkPrim = PrimS
